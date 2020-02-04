@@ -1,0 +1,65 @@
+.banner
+  width: 100%
+  background-image: url('https://i.ibb.co/sV3ZTky/2-mobile.jpg')
+  background-position: bottom
+  height: 450px
+  @media all and ( min-width: 768px )
+    height: 250px
+    background-image: url('https://i.ibb.co/qFbLgz7/2.jpg')
+  @media all and ( min-width: 1200px )
+    height: 400px
+    background-image: url('https://i.ibb.co/xCQBBbD/laptop-size.jpg')
+  .content-wrapper
+    text-align: center
+    margin-bottom: 25px
+    @media all and ( min-width: 1200px )
+      width: 70%
+    @media all and ( min-width: 768px )
+      width: 60%
+    h1 
+      padding-top: 40px
+      text-transform: uppercase
+      color: $heading
+      font-family: 'Perpetua Titling MT'
+      margin: 0
+      @media all and ( min-width: 768px )
+        font-size: 35px
+      @media all and ( min-width: 1200px )
+        font-size: 50px
+    h2 
+      color: $grey
+      font-weight: 450
+      margin: 0
+      padding-top: 15px
+      padding-bottom: 30px
+      @media all and ( min-width: 768px )
+        font-size: 18px
+      @media all and ( min-width: 1200px )
+        font-size: 30px
+    .button
+      text-transform: uppercase
+      text-decoration: none
+      border: 1px solid $red
+      border-radius: 3px
+      padding: 10px
+      margin-top: 300px
+      color: $red
+      background-color: none
+      &_register
+        margin-right: 5px
+        background-color: $red
+        color: white
+.home-extra-content
+  padding-top: 30px
+  .content-heading
+    text-transform: uppercase
+    color: #707070
+    font-weight: 400
+    padding: 20px 0
+    @media all and ( min-width: 768px )
+      font-size: 20px
+  .content-wrapper
+    //height: 240px
+    border-top: 1px solid $lightgrey
+
+

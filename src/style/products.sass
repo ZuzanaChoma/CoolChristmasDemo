@@ -1,0 +1,166 @@
+.breadcrumbs
+    position: relative 
+    height: 50px
+    font-size: 14px
+    display: flex
+    align-items: center
+    text-transform: uppercase
+    margin-left: 0px
+    @media all and ( min-width: 780px )
+      margin-left: 10px
+    li 
+        display: inline
+        position: relative
+        margin-right: 6px
+        a 
+            text-decoration: none
+            color: black
+            &:after
+                margin: 0 2px 5px 
+                content: ">"
+                position: relative
+                top: -1px
+.page-text
+    padding: 0 50px
+    display: flex
+    flex-direction: column
+    align-items: center
+.page-heading
+    color: $heading
+    text-transform: uppercase
+    font-size: 25px
+    margin-top: 20px
+.page-subheading
+.product-page
+    display: flex
+    flex-direction: column
+    @media all and ( min-width: 998px )
+        flex-direction: row
+    .filters-wrapper
+        display: none
+        min-width: fit-content
+        height: max-content
+        background: white
+        padding: 12px
+        border-radius: 3px
+        box-shadow: 3px 5px 10px $shadow
+        h4 
+            margin: 0
+        .filters-list
+            list-style: none
+            padding: 0
+        .filter-button
+            border: 1px solid
+            color: white
+            background-color: $darkgreen
+            text-align: center
+            padding: 5px
+            font-size: 12px
+            text-transform: uppercase
+            margin: 0 auto
+            margin-top: 10px
+            &:hover
+                cursor: pointer
+        .clear-filter
+            color: $darkgreen
+            border: 1px solid $darkgreen
+            background-color: white
+        @media all and ( min-width: 1200px )
+            display: block
+    .product-page-right
+        padding: 0 10px
+        @media all and ( min-width: 768px )
+            padding: 0 50px
+        .text-wrapper
+            margin-left: 10px
+        .products-wrapper
+            display: flex
+            flex-wrap: wrap
+            flex: 1
+            .product
+                height: 300px 
+                width: 280px
+                box-shadow: 3px 6px 9px grey
+                text-align: center
+                background: white
+                margin: 10px
+                .image-wrapper
+                    margin: 0 auto
+                    width: 240px
+                    overflow: hidden
+                    justify-content: center
+                    display: flex
+                    .product-image
+                        height: 220px
+                        //width: 240px
+                        //background-size: 240px
+                        //background: no-repeat
+                .product-text
+                    text-align: left
+                    margin: 10px
+                    &__name
+                        font-size: 13px
+                        padding: 0
+                        color: $darkgrey
+                    &__price
+                        font-size: 20px 
+                        font-weight: bold
+                        color: $gold
+                        &--hidden
+                            display: none
+                .product-info
+                    display: flex
+                    justify-content: space-between
+                    align-items: center
+                .add-button
+                    color: $red
+                    padding: 5px 10px
+                    border: 1px solid $red
+                    width: fit-content
+                    height: fit-content
+                    border-radius: 3px
+                    text-transform: uppercase
+                    margin-right: 10px
+                    &:hover
+                        cursor: pointer
+                .remove-button
+                    color: $lightgrey
+                    padding: 5px 10px
+                    border: 1px solid $lightgrey
+                    width: fit-content
+                    height: fit-content
+                    border-radius: 3px
+                    text-transform: uppercase
+                    margin-right: 10px
+                    &:hover
+                        cursor: pointer
+                .product-name-employee
+                    font-size: 13px
+                    color: $darkgrey
+                    padding: 5px 0
+                .button-wrapper
+                    display: flex
+                    justify-content: space-evenly
+                    margin: 10px
+                    .button
+                        border: 1px solid $red
+                        color: $red
+                        padding: 5px 10px
+                        border-radius: 3px
+                        &_add-gift
+                            color: white
+                            background: $red
+                            padding: 5px 10px
+                            border-radius: 3px
+                            &:hover
+                                cursor: pointer  
+                        &:hover
+                            cursor: pointer
+.remove-gift
+    color: $lightgrey
+    background: white
+    border: 1px solid $lightgrey
+
+.employee
+    display: flex
+    justify-content: space-evenly             

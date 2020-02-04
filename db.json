@@ -1,0 +1,404 @@
+{
+  "brands": [
+      {
+          "id" : 0,
+          "name" : "SACKit"
+      },
+      {
+          "id" : 1,
+          "name" : "DON ONE"
+      },
+      {
+          "id" : 2,
+          "name" : "Mikamax"
+      },
+      {
+          "id" : 3,
+          "name" : "Kay Bojensen"
+      },
+      {
+          "id" : 4,
+          "name" : "Nordica"
+      },
+      {
+          "id" : 5,
+          "name" : "Eva Solo"
+      },
+      {
+          "id" : 6,
+          "name" : "Gillian Jones"
+      },
+      {
+          "id" : 7,
+          "name" : "Hoptimist"
+      },
+      {
+          "id" : 8,
+          "name" : "Targus"
+      },
+      {
+          "id" : 9,
+          "name" : "Samsonite"
+      },
+      {
+          "id" : 10,
+          "name" : "Clean"
+      },
+      {
+          "id" : 11,
+          "name" : "Philips"
+      },
+      {
+          "id" : 12,
+          "name" : "Nilfisk"
+      }  
+  ],
+  "categories": [
+      {
+          "id": 0,
+          "name" : "Electronics"
+      },
+      {
+          "id": 1,
+          "name" : "Gadgets"
+      },
+      {
+          "id": 2,
+          "name" : "Home and Kitchen"
+      },
+      {
+          "id": 3,
+          "name" : "Luggage and Travel gear"
+      },
+      {
+          "id": 4,
+          "name" : "Beauty"
+      },
+      {
+          "id": 5,
+          "name" : "Tools"
+      }
+  ],
+  "products": [
+      {
+          "id" : 0,
+          "name" : "Clean 5 piece giftset",
+          "price" : 199,
+          "brand" : 10,
+          "description": "This is a very nice parfume.",
+          "main_image" : "https://i.ibb.co/cNBR9C5/clean-5-piece-rollerball-collection-giftset.jpg",
+          "category" : 4
+      },
+      {
+        "id" : 1,
+        "name" : "Clean 3 piece giftset",
+        "price" : 149,
+        "brand" : 10,
+        "description": "This is a very nice parfume.",
+        "main_image" : "https://i.ibb.co/TbzbbVR/clean-layering-set-3-x-30-ml-giftset.jpg",
+        "category" : 4
+    },
+    {
+        "id" : 2,
+        "name" : "Beard grooming kit deluxe",
+        "price" : 350,
+        "brand" : 1,
+        "description": "This is a very nice grooming kit.",
+        "images": [
+            "https://i.ibb.co/dLcRVcg/beard-grooming-kit-deluxe.jpg"
+        ],
+        "main_image" : "https://i.ibb.co/dLcRVcg/beard-grooming-kit-deluxe.jpg",
+        "category" : 4
+    },
+    {
+        "id" : 3,
+        "name" : "Wireless earbuds",
+        "price" : 300,
+        "brand" : 1,
+        "description": "These are very high quality earbuds.",
+        "images": [
+            "https://i.ibb.co/Pm8Rt1p/don-one-lifestyle-wireless-earbuds-3.jpg",
+            "https://i.ibb.co/HF4cTTg/don-one-lifestyle-wireless-earbuds-4.jpg",
+            "https://i.ibb.co/rZZd0Lv/don-one-lifestyle-wireless-earbuds-1.jpg",
+            "https://i.ibb.co/swNFy0c/don-one-lifestyle-wireless-earbuds-2.jpg"
+        ],
+        "main_image" : "https://i.ibb.co/h9W0j2C/don-one-lifestyle-wireless-earbuds.jpg",
+        "category" : 0
+    },
+    {
+        "id" : 4,
+        "name" : "Wireless gaming mouse",
+        "price" : 350,
+        "brand" : 1,
+        "description": "This is the best gaming mouse ever.",
+        "images": [
+            "https://i.ibb.co/JxmLwHM/don-one-salerno-gaming-mouse-1.jpg",
+            "https://i.ibb.co/9WKd0nK/don-one-salerno-gaming-mouse-2.jpg"   
+        ],
+        "main_image" : "https://i.ibb.co/p2qtndj/don-one-salerno-gaming-mouse.jpg",
+        "category" : 0
+    },
+    {
+        "id" : 5,
+        "name" : "Drinking glass",
+        "price" : 150,
+        "brand" : 5,
+        "description": "This is the best drinking glass ever.",
+        "images": [],
+        "main_image" : "https://i.ibb.co/zRjKYRX/eva-solo-drinking-glass-38-cl-8-pcs-567423.jpg",
+        "category" : 2
+    },
+    {
+        "id" : 6,
+        "name" : "Kitchen pot set",
+        "price" : 500,
+        "brand" : 5,
+        "description": "This is the best pot set for kitchen ever.",
+        "images": [],
+        "main_image" : "https://i.ibb.co/qB3GHz1/eva-solo-nordic-kitchen-pot-set-black-94282216.jpg",
+        "category" : 2
+    },
+    {
+        "id" : 7,
+        "name" : "Thermo cup",
+        "price" : 250,
+        "brand" : 5,
+        "description": "This is the best thermo cup ever.",
+        "images": [
+            "https://i.ibb.co/cwkXT7s/eva-solo-to-go-cup-0-35-l-botanic-green-567445-1.jpg"
+        ],
+        "main_image" : "https://i.ibb.co/7YkRQTB/eva-solo-to-go-cup-0-35-l-botanic-green-567445.jpg",
+        "category" : 2
+    },
+    {
+        "id" : 8,
+        "name" : "Towel",
+        "price" : 300,
+        "brand" : 5,
+        "description": "This is the best towel cup ever.",
+        "images": [],
+        "main_image" : "https://i.ibb.co/gZN63cR/eva-solo-towel-50-x-100-cm-dark-grey-592405-1.jpg",
+        "category" : 2
+    },
+    {
+        "id" : 9,
+        "name" : "Towel dark",
+        "price" : 300,
+        "brand" : 5,
+        "description": "This is the best towel cup ever.",
+        "images": [],
+        "main_image" : "https://i.ibb.co/VCmFGpk/eva-solo-towel-50-x-100-cm-dark-grey-592405.jpg",
+        "category" : 2
+    },
+    {
+        "id" : 10,
+        "name" : "Towel colorful",
+        "price" : 300,
+        "brand" : 5,
+        "description": "This is the best towel cup ever.",
+        "images": [],
+        "main_image" : "https://i.ibb.co/BBJ5KRc/eva-solo-towel-50-x-100-cm-dark-grey-592405-2.jpg",
+        "category" : 2
+    },
+    {
+        "id" : 11,
+        "name" : "Towel colorful",
+        "price" : 300,
+        "brand" : 5,
+        "description": "This is the best towel cup ever.",
+        "images": [],
+        "main_image" : "https://i.ibb.co/BBJ5KRc/eva-solo-towel-50-x-100-cm-dark-grey-592405-2.jpg",
+        "category" : 2
+    },
+    {
+        "id" : 12,
+        "name" : "Spa bag",
+        "price" : 350,
+        "brand" : 6,
+        "description": "This is the best beauty bag ever.",
+        "images": [],
+        "main_image" : "https://i.ibb.co/zFbJ137/gillian-jones-spa-train-case-incl-3-check-in-bags-snake.jpg",
+        "category" : 1
+    },
+    {
+        "id" : 13,
+        "name" : "Beauty bag",
+        "price" : 400,
+        "brand" : 6,
+        "description": "This is the best beauty bag ever.",
+        "images": [],
+        "main_image" : "https://i.ibb.co/TKjch1n/gillian-jones-makeup-purse-1.jpg",
+        "category" : 1
+    },
+    {
+        "id" : 14,
+        "name" : "Hoptimist pink",
+        "price" : 170,
+        "brand" : 7,
+        "description": "This is beautiful Danish design art.",
+        "images": [],
+        "main_image" : "https://i.ibb.co/J5jBHZS/hoptimist-baby-bumble-pink-2004-44.jpg",
+        "category" : 1
+    },
+    {
+        "id" : 15,
+        "name" : "Hoptimist white",
+        "price" : 200,
+        "brand" : 7,
+        "description": "This is beautiful Danish design art.",
+        "images": [],
+        "main_image" : "https://i.ibb.co/kB6mxtG/hoptimist-love-bimble-4002-10.jpg",
+        "category" : 1
+    },
+    {
+        "id" : 16,
+        "name" : "Hoptimist white set family",
+        "price" : 700,
+        "brand" : 7,
+        "description": "This is beautiful Danish design art.",
+        "images": [],
+        "main_image" : "https://i.ibb.co/bKdLSrk/hoptimist-love-bimble-4002-10-1.jpg",
+        "category" : 1
+    },
+    {
+        "id" : 17,
+        "name" : "Hoptimist Christmas set",
+        "price" : 570,
+        "brand" : 7,
+        "description": "This is beautiful Danish design art.",
+        "images": [],
+        "main_image" : "https://i.ibb.co/m5qyPrW/hoptimist-nosy-santa-2-pcs-8005-10.jpg",
+        "category" : 1
+    },
+    {
+        "id" : 18,
+        "name" : "Hoptimist Danish",
+        "price" : 250,
+        "brand" : 7,
+        "description": "This is beautiful Danish design art.",
+        "images": [],
+        "main_image" : "https://i.ibb.co/B4Vtcy4/hoptimist-rooligan-9007-40.jpg",
+        "category" : 1
+    },
+    {
+        "id" : 19,
+        "name" : "Wooden Monkey",
+        "price" : 450,
+        "brand" : 3,
+        "description": "This is beautiful Danish design art.",
+        "images": [],
+        "main_image" : "https://i.ibb.co/d6tWfWh/kay-bojesen-abe-mini-teak-tree-39249.png",
+        "category" : 1
+    },
+    {
+        "id" : 20,
+        "name" : "Smoked Oak Dog",
+        "price" : 499,
+        "brand" : 3,
+        "description": "This is beautiful Danish design art.",
+        "images": [],
+        "main_image" : "https://i.ibb.co/Brv8GgX/kay-bojesen-hund-smoked-oak-39213.png",
+        "category" : 1
+    },
+    {
+        "id" : 21,
+        "name" : "Birds Set",
+        "price" : 850,
+        "brand" : 3,
+        "description": "This is beautiful Danish design art.",
+        "images": [],
+        "main_image" : "https://i.ibb.co/t3RpXcL/kay-bojesen-turtelduer-39204.png",
+        "category" : 1
+    },
+    {
+        "id" : 22,
+        "name" : "Beer brewing set",
+        "price" : 900,
+        "brand" : 2,
+        "description": "This is homebrewing set for making beer.",
+        "images": [],
+        "main_image" : "https://i.ibb.co/w6zZV5n/dutch-beer-brew-making-set-ipa-1.jpg",
+        "category" : 1
+    },
+    {
+        "id" : 23,
+        "name" : "Safety bycikle lock",
+        "price" : 130,
+        "brand" : 2,
+        "description": "This is best safety lock for bikes.",
+        "images": [],
+        "main_image" : "https://i.ibb.co/h1QyKh5/slok-smart-pad-lock-04685-1.jpg",
+        "category" : 5
+    },
+    {
+        "id" : 24,
+        "name" : "Comfy blanket hot pink",
+        "price" : 330,
+        "brand" : 2,
+        "description": "This is very comfortable blanket.",
+        "images": [],
+        "main_image" : "https://i.ibb.co/Fg39hcy/snugs-deluxe-red-blanket-04102-rd.jpg",
+        "category" : 1
+    },
+    {
+        "id" : 25,
+        "name" : "Nilfisk vacuum cleaner",
+        "price" : 780,
+        "brand" : 12,
+        "description": "This is best vacuum cleaner ever.",
+        "images": [],
+        "main_image" : "https://i.ibb.co/wrt0CMW/nilfisk-multi-ii-30-t-inox-vsc-eu-multipurpose-vacuum-cleaner.jpg",
+        "category" : 5
+    },
+    {
+        "id" : 26,
+        "name" : "Coffee maker",
+        "price" : 900,
+        "brand" : 12,
+        "description": "This is best coffee machine ever.",
+        "images": [],
+        "main_image" : "https://i.ibb.co/QjpPz4H/obh-nordica-coffee-box-coffee-maker-black-2373.jpg",
+        "category" : 0
+    },
+    {
+        "id" : 27,
+        "name" : "Personal weight",
+        "price" : 230,
+        "brand" : 12,
+        "description": "This is best personal weight ever.",
+        "images": [],
+        "main_image" : "https://i.ibb.co/ggTWZsv/obh-nordica-personal-scale-reflection-6256.jpg",
+        "category" : 0
+    },
+    {
+        "id" : 28,
+        "name" : "Toast maker",
+        "price" : 315,
+        "brand" : 12,
+        "description": "This is best toast maker ever.",
+        "images": [],
+        "main_image" : "https://i.ibb.co/RSNxSQh/obh-nordica-daybreak-toaster-white-2261.jpg",
+        "category" : 0
+    },
+    {
+        "id" : 29,
+        "name" : "Hair curler",
+        "price" : 455,
+        "brand" : 12,
+        "description": "This is best hair curler ever.",
+        "images": [],
+        "main_image" : "https://i.ibb.co/fvDH8Vk/obh-nordica-bjoern-axen-tools-magic-style-brush-38-mm-3102.jpg",
+        "category" : 0
+    },
+    {
+        "id" : 30,
+        "name" : "Black leather briefcase",
+        "price" : 455,
+        "brand" : 9,
+        "description": "This is best hair curler ever.",
+        "images": [],
+        "main_image" : "https://i.ibb.co/yQ1Xwdv/samsonite-s-oulite-16-briefcase-medium-black-leather.jpg",
+        "category" : 3
+    }
+  ]
+}

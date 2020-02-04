@@ -1,0 +1,82 @@
+.checkout-page
+    @media all and ( min-width: 998px )
+        width: 70%
+        margin: 0 auto
+    .employee-checkout 
+        margin-top: 40px
+        display: flex
+        justify-content: center
+        text-transform: uppercase
+        font-size: 28px
+        color: $heading
+        @media all and ( min-width: 786px )
+            font-size: 35px
+        &_subheading
+            color: black
+            font-weight: bold
+            text-transform: UPPERCASE 
+            font-size: 20px
+            margin-bottom: 10px
+        &_product-name
+            text-transform: uppercase
+            margin-bottom: 5px
+        &_items
+            margin-top: 20px
+            display: flex
+            flex-direction: column
+            justify-content: space-evenly
+            @media all and ( min-width: 768px )
+                flex-direction: row
+            &--right
+                width: 100%
+                order: 1
+                @media all and ( min-width: 768px )
+                    margin-left: 20px
+                    flex: 2
+                    order: 2
+                .selected-gift
+                    max-width: 100px
+            &--left
+                width: 100%
+                order: 2
+                @media all and ( min-width: 768px )
+                    flex: 3
+                    order: 1
+            .delivery-container
+                background: white
+                box-shadow: 3px 6px 9px grey
+                border-radius: 3px
+                padding: 10px
+                margin-bottom: 20px
+                //height: 180px
+                &--first
+                    height: 180px
+                &_options
+                    display: flex 
+                .input-row
+                    margin-bottom: 5px
+            .gift-container
+                background: white
+                box-shadow: 3px 6px 9px grey
+                border-radius: 3px
+                padding: 10px
+                margin-bottom: 20px
+                height: fit-content
+                display: flex
+                flex-direction: column
+                align-items: center
+                height: 180px
+.employee-checkout-btn
+    cursor: pointer
+    display: block
+    position: relative
+    width: 100%
+    font-size: 15px
+    text-transform: uppercase
+    text-align: center
+    padding: 10px
+    border-radius: 3px
+    border: none
+    color: white
+    background-color: $red
+    margin-bottom: 30px

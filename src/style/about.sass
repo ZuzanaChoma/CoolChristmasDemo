@@ -1,0 +1,75 @@
+.about-wrapper
+  margin: 10px
+  @media all and ( min-width: 998px )
+    margin: 40px
+  .about-title
+    font-size: 40px
+    margin-bottom: 10px
+  .explanation-wrapper
+    border-top: 1px solid #DDDDDD
+    display: flex
+    flex-direction: column
+    padding: 20px 0
+    @media all and ( min-width: 768px )
+      padding: 50px 0
+      display: flex
+      flex-direction: row
+      justify-content: space-between
+    .step
+      display: flex
+      flex-direction: column
+      align-items: center
+      padding: 10px 
+      @media all and ( min-width: 996px )
+          padding: 0
+      h3 
+        text-transform: uppercase
+        margin-top: 10px
+        margin-bottom: 0
+        text-align: center
+        @media all and ( min-width: 768px )
+          font-size: 18px
+
+      p 
+        max-width: 300px
+        padding-bottom: 10px
+        //text-align: center
+        @media all and ( min-width: 768px )
+          max-width: 170px
+          padding: 10px 10px
+          font-size: 15px
+        @media all and ( min-width: 996px )
+          padding: 0
+      .icon-wrapper
+        //border: 1px solid black
+        color: white
+        background-color: $lightgreen
+        border-radius: 50%
+        padding: 15px
+        margin-top: 10px
+        @media all and ( min-width: 768px )
+          margin-top: 0
+        .icon
+          width: 50px
+          height: 50px
+  .wrapper-end
+    display: block
+    padding: 25px 0
+    img 
+      max-width: 75px
+      margin-right: 20px
+
+  .button_register
+    text-decoration: none
+    text-transform: uppercase
+    color: white
+    background-color: $red
+    border-radius: 3px
+    width: fit-content
+    padding: 10px
+    margin: 0 auto
+    display: block
+    margin-bottom: 30px
+    box-shadow: 3px 5px 10px $shadow
+    &:hover
+      cursor: pointer

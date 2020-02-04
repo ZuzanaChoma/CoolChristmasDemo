@@ -1,0 +1,53 @@
+.product-page-wrapper
+    //display: flex
+    padding: 30px 0
+    //justify-content: center
+    .product-wrapper
+        display: flex
+        justify-content: center
+        #image-change
+            max-width: 150px
+            @media all and ( min-width: 768px )
+                max-width: 300px
+            @media all and ( min-width: 998px )
+                max-width: 500px
+            &:hover
+                cursor: pointer
+        .product-info
+            padding-left: 25px
+            max-width: 500px
+            display: flex
+            flex-direction: column
+            justify-content: space-around
+        .product-name
+            margin: 0
+            text-transform: uppercase
+            color: $heading
+        .product-price
+            color: $gold
+        .action-button
+            border-radius: 3px
+            text-align: center
+            padding: 10px
+            text-transform: uppercase
+            background: $red
+            color: white
+            &:hover
+                cursor: pointer
+        .remove
+            color: $lightgrey
+            background: white
+            border: 1px solid $lightgrey
+        .product-description
+            word-break: break-word
+            font-size: 14px
+            line-height: 20px
+            padding-bottom: 40px
+    .product-images-wrapper
+        display: flex
+        .product-images
+            img 
+                width: 100px
+                padding: 5px 10px 0 0
+            &:hover
+                cursor: pointer

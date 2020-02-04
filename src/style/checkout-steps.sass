@@ -1,0 +1,45 @@
+.container
+  margin: 0
+  padding: 10px
+  background: $darkgreen
+  @media all and ( min-width: 998px )
+    padding: 15px
+  .steps-wrapper
+    padding: 12px 3px
+    position: relative
+    display: flex
+    width: 100%
+    justify-content: space-around
+    margin: 0 auto
+    max-width: 800px
+    color: white
+    @media all and ( min-width: 1200px )
+      max-width: 1000px
+      padding: 0
+    .step
+      width: 120px
+      display: flex
+      flex-direction: column
+      align-items: center
+      .icon-wrapper
+        background: white
+        display: flex
+        justify-content: center
+        align-items: center
+        border-radius: 50%
+        margin-bottom: 5px
+        padding: 8px
+        .icon
+          width: 35px
+          height: 35px
+          color: $lightgreen
+          &_disabled
+            color: $lightgrey
+      i
+        display: block
+        font-size: 25px
+  .line
+    border: 1px solid black
+    width: 60%
+    margin: 0 auto
+    transform: translateY(-50px)

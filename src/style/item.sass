@@ -1,0 +1,34 @@
+.caroussel-item
+    box-shadow: 3px 6px 9px grey
+    background-color: white
+    height: 180px
+    width: 160px
+    margin: 20px 5px
+    display: flex
+    flex-direction: column
+    align-items: center
+    font-size: 10px
+    @media all and ( min-width: 768px )
+        font-size: 12px
+        height: 190px
+        width: 170px
+    @media all and ( min-width: 998px )
+        font-size: 15px
+        height: 240px
+        width: 200px
+    &_image
+        max-width: 160px
+        max-height: 130px
+        @media all and ( min-width: 768px )
+            max-width: 170px
+            max-height: 150px
+        @media all and ( min-width: 998px )
+            max-width: 200px
+            max-height: 170px
+    &_title
+        text-transform: uppercase 
+        text-align: center
+        padding-bottom: 10px
+        display: flex
+        height: 100%
+        align-items: flex-end
